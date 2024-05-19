@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 import google.generativeai as genai 
 
-genai.configure(api_key='AIzaSyAZ3nPdu-LN0a-9Wb7eqQ4fCf4zTg-NtXo') 
+genai.configure(api_key="Enter your API Key") 
 
 popu_meh = pickle.load(open('popu.pkl','rb'))
 popu_data = pd.DataFrame(popu_meh)
